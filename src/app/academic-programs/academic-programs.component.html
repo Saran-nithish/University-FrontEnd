@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Programs</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container px-4 px-lg-5">
+          <a class="navbar-brand" href="#">University</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                  aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" [routerLink]="['/home']">About</a></li>
+              <li class="nav-item"><a class="nav-link" [routerLink]="['/programs']">Programs</a></li>
+              <li class="nav-item"><a class="nav-link" href="#admissions">Admissions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#our-faculty">Faculty</a></li>
+              <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+              <li class="nav-item"><a class="nav-link" href="#manage-applications">Applications</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item">
+                <button class="btn btn-outline-secondary nav-link" (click)="logout()">Logout</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+  <!-- Programs Section -->
+  <div class="container mt-5">
+    <h1>Programs</h1>
+    <p>Welcome to the Programs page! Here, you can find information about the various academic programs we offer.</p>
+
+    <div class="row">
+      <!-- Program 1 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/images/csc.jpg" class="card-img-top" alt="Program 1">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Computer Science</h5>
+            <p class="card-text">Learn the fundamentals of computer science, software development, and algorithm design.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Program 2 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/images/bsc.jpg" class="card-img-top" alt="Program 2">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Arts in English Literature</h5>
+            <p class="card-text">Explore classic and contemporary literature and enhance your critical thinking and writing skills.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Program 3 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/images/mba.jpg" class="card-img-top" alt="Program 3">
+          <div class="card-body">
+            <h5 class="card-title">Master of Business Administration</h5>
+            <p class="card-text">Develop advanced business skills in management, finance, and marketing with our MBA program.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add more programs as needed -->
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
