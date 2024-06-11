@@ -10,6 +10,7 @@ import { DepartmentComponent } from './dialog/department/department.component';
 import { ManageDepartmentsComponent } from './manage-departments/manage-departments.component';
 import { AcademicProgramsComponent } from './academic-programs/academic-programs.component';
 import { ContactComponent } from './contact/contact.component';
+import { ManageProgramsComponent } from './manage-programs/manage-programs.component';
 
 export const routes: Routes = [
     // {path:'',redirectTo:'login',pathMatch:"full"},
@@ -32,7 +33,8 @@ export const routes: Routes = [
   {path:'departments',component:ManageDepartmentsComponent},
   {path:'programs',component:AcademicProgramsComponent},
   {path:'contact',component:ContactComponent},
-  {path:'admission',component:AdmissionsComponent}
+  {path:'admission',component:AdmissionsComponent},
+  {path:'mprogram',component:ManageProgramsComponent}
 ];
 
 @NgModule({

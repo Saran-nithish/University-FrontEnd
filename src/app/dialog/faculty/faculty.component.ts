@@ -10,8 +10,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { FacultyService } from '../../Services/faculty.service';
 import { DepartmentService } from '../../Services/department.service';
-import { DepartmentComponent } from '../department/department.component';
-
 
 
 @Component({

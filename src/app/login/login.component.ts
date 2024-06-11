@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Route, Router, RouterLink } from '@angular/router'
+import { Router, RouterLink } from '@angular/router'
 import { UserService } from '../Services/user.service';
 import { FormsModule, NgModel } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { User } from '../interfaces/auth';
-import { response } from 'express';
+
 
 @Component({
   selector: 'app-login',

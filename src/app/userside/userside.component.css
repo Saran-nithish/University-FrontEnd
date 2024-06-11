@@ -107,7 +107,6 @@ body {
     margin: 0 10px;
   }
 
-  /* Responsive styles */
   @media (max-width: 768px) {
     .jumbotron h1 {
       font-size: 2.5rem;

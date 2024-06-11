@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { Department } from '../interfaces/department';
 import { DepartmentService } from '../Services/department.service';
-import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { MatDialog, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
+import { MatDialog, MatDialogModule} from '@angular/material/dialog';
 import { DepartmentComponent } from '../dialog/department/department.component';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatIcon } from '@angular/material/icon';
 import { HomePageComponent } from '../home-page/home-page.component';
 import { UserService } from '../Services/user.service';

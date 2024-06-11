@@ -8,7 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { UsersideComponent } from './userside/userside.component';
 import { ManageFacultiesComponent } from './manage-faculties/manage-faculties.component';
 import { ManageDepartmentsComponent } from './manage-departments/manage-departments.component';
-import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
+import { MatDialogActions, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { FacultyComponent } from './dialog/faculty/faculty.component';
 import { DepartmentComponent } from './dialog/department/department.component';
 import { MatSnackBar, MatSnackBarModule, matSnackBarAnimations } from '@angular/material/snack-bar';
@@ -19,6 +19,15 @@ import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select'
 import { AdmissionsComponent } from './admissions/admissions.component';
+import { AcademicProgramsComponent } from './academic-programs/academic-programs.component';
+import { matTooltipAnimations } from '@angular/material/tooltip';
+import { MatCardModule } from '@angular/material/card';
+import { ManageProgramsComponent } from './manage-programs/manage-programs.component';
+import { ProgramFormComponent } from './dialog/program-form/program-form.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
+
 
 @Component({
   selector: 'app-root',
@@ -43,7 +52,8 @@ MatSnackBarModule,
 MatProgressBarModule,
 MatTableModule,
 MatIconModule,
-MatSelectModule,AdmissionsComponent,
+MatSelectModule,AdmissionsComponent,AcademicProgramsComponent,MatDialogActions,MatCardModule,MatFormFieldModule,
+ManageProgramsComponent,MatInputModule
 
 ],
   templateUrl: './app.component.html',
